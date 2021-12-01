@@ -8,9 +8,9 @@ const messages = {
   409: 'Email already registered',
 };
 
-const checkFields = (name, email, password) => (!name || !email || !password) ? false : true;
+const checkFields = (name, email, password) => (name && email && password);
 
-const emailIsValid = (email, emailRegex) => (!emailRegex.test(email)) ? false : true;
+const emailIsValid = (email, emailRegex) => emailRegex.test(email);
 
 /**
  * Consultei o repositório do Robertson Maxwel para resolver essa parte.
