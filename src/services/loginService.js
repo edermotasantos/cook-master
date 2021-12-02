@@ -35,7 +35,7 @@ const createLogin = async ({ email, password }) => {
 
     if (!validateFields) return statusAndMessages.emptyField; 
 
-    const userLogin = await loginModel.getUserByEmailAndPassword({ email, password });
+    const userLogin = await loginModel.createLogin({ email, password });
 
     const existPasswords = existPassword(userLogin, password);
 
