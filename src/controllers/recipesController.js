@@ -3,6 +3,7 @@ const recipesModel = require('../models/recipesModel');
 
 const CREATED = 201;
 const OK = 200;
+const NO_CONTENT = 204;
 
 const createRecipe = async (req, res) => {
   const { _id: id } = req.user;
@@ -50,9 +51,16 @@ const updateRecipeById = async (req, res) => {
   );
 };
 
+const deleteRecipeById = async (req, res) => {
+  const { id } = req.params;
+  await recipesService.deleteRecipeById(id);
+  return res.status(NO_CONTENT).json();
+};
+
 module.exports = {
   createRecipe,
   getAllRecipes,
   getRecipeById,
   updateRecipeById,
+  deleteRecipeById,
 };
