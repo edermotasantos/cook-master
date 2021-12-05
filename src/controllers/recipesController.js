@@ -44,7 +44,7 @@ const updateRecipeById = async (req, res) => {
   const getRecipe = await recipesModel.getRecipeById(id);
   const { _id } = getRecipe;
   await recipesService.updateRecipeById(
-    { id, name, ingredients, preparation }
+    { id, name, ingredients, preparation },
   );
   return res.status(OK).json(
     { _id: id, name, ingredients, preparation, userId: _id },
@@ -57,10 +57,31 @@ const deleteRecipeById = async (req, res) => {
   return res.status(NO_CONTENT).json();
 };
 
+/**
+ * Consultei o repositório do Robertson Maxwel para resolver essa parte.
+ * Link: // https://github.com/tryber/sd-010-a-cookmaster/pull/104/files
+ */
+
+const uploadImageById = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { path } = req.file;
+    const { _id, name, ingredients, preparation } = await recipesService.getRecipeById(id);
+    const { _id: userId } = req.user;
+    await recipesService.uploadImageById(id, `localhost:3000/${path}`);
+      return res.status(OK).json(
+        { _id, name, ingredients, preparation, userId, image: `localhost:3000/${path}` },
+      );
+  } catch (err) {
+    console.log('message', err.message);
+  }
+};
+
 module.exports = {
   createRecipe,
   getAllRecipes,
   getRecipeById,
   updateRecipeById,
   deleteRecipeById,
+  uploadImageById,
 };

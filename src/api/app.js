@@ -8,6 +8,7 @@ const loginRoutes = require('../routes/loginRoutes');
 const recipesRoutes = require('../routes/recipesRoutes');
 
 const app = express();
+app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use('/images', express.static(path.join(__dirname, '..', 'uploads')));
 

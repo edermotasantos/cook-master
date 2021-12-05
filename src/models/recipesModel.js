@@ -1,5 +1,5 @@
 const { ObjectId } = require('mongodb');
-const connection = require('./connection'); 
+const connection = require('./connection');
 
 const createRecipe = async ({ name, ingredients, preparation }) => {
   const recipesCollection = await connection()
@@ -53,10 +53,22 @@ const deleteRecipeById = async (id) => {
   return deleteRecipe;
 };
 
+const uploadImageById = async (id, image) => {
+  const recipesCollection = await connection()
+    .then((db) => db.collection('recipes'));
+  const updateImage = await recipesCollection
+    .updateOne(
+      { _id: ObjectId(id) },
+      { $set: { image } },
+    );
+  return updateImage;
+};
+
 module.exports = {
   createRecipe,
   getAllRecipes,
   getRecipeById,
   updateRecipeById,
   deleteRecipeById,
+  uploadImageById,
 };
