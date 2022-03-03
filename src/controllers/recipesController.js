@@ -57,11 +57,6 @@ const deleteRecipeById = async (req, res) => {
   return res.status(NO_CONTENT).json();
 };
 
-/**
- * Consultei o repositório do Robertson Maxwel para resolver essa parte.
- * Link: // https://github.com/tryber/sd-010-a-cookmaster/pull/104/files
- */
-
 const uploadImageById = async (req, res) => {
   try {
     const { id } = req.params;

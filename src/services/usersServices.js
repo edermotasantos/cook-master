@@ -12,11 +12,6 @@ const checkFields = (name, email, password) => (name && email && password);
 
 const emailIsValid = (email, emailRegex) => emailRegex.test(email);
 
-/**
- * Consultei o repositório do Robertson Maxwel para resolver essa parte.
- * Link: // https://github.com/tryber/sd-010-a-cookmaster/pull/104/files
- */
-
 const createUser = async ({ name, email, password, role }) => {
   const emailRegex = /^[\w-.]+@([\w-]+.)+[\w-]{2,4}$/g;
   const ValidateEmail = emailIsValid(email, emailRegex);

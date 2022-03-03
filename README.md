@@ -1,17 +1,16 @@
 # 🍲 cook-master
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+<div> 
+  <a href="https://www.linkedin.com/in/eder-santos-dev/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href = "mailto:eder.mota@outlook.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a> 
+</div>
 
 Esse projeto foi proposto pela Trybe e tem como objetivo o desenvolvimento de um App utilizando a arquitetura MSC (Models, Service e Controllers). Para isso é necessário que cumpra os seguintes requisitos:
 - Cadastrar um usuário
 - Criar o login de usuário cadastrado
 - Listar as receitas
 - Cadastrar um usuário com permissões de admin
-- Criar/visualizar/atualizar/excluir uma receita
+- Criar, ler, atualizar e excluir uma receita
 - Adicionar e visualizar imagem de uma receita
 
 <!-- <img src="exemplo-image.png" alt="exemplo imagem"> -->
@@ -28,18 +27,18 @@ Para instalar o cook-master, siga estas etapas:
 
 Linux:
 
-* Faça o clone do projeto através do SSH: 
-`git clone git@github.com:arthur-hc/Project-Cookmaster.git`
+* Faça o clone do projeto:
+`git clone git@github.com:edermotasantos/cook-master.git`
 * Entre na página através do comando:
-`cd Project-Cookmaster`
-* Dentro da pasta para instalar as dependências digite:
+`cd cook-master`
+* Dentro da pasta instale as dependências:
 `npm install`
-
-
 
 ## 🌮 Usando cook-master
 
 Para usar cook-master, siga estas etapas:
+* As pastas estão dentro da pasta `src`
+* Foi feito utilizando a arquitetura `msc`, com as pastas `models`, `services` e `controllers`
 * O projeto deve rodar na porta 3000
 * Rode o programa através do comando
 `npm run dev`
