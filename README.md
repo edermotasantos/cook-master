@@ -43,8 +43,6 @@ Para usar cook-master, siga estas etapas:
 * Rode o programa através do comando
 `npm run dev`
 
-Agora você já pode começar a desenvolver o seu projeto!
-
 ## 🥞 Referências:
 <a href="https://github.com/iuricode/readme-template/blob/main/README-repository/iuricode.md">iuricode</a>
 
