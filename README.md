@@ -905,3 +905,5 @@ O avaliador automático não necessariamente avalia seu projeto na ordem em que 
 <a href="https://github.com/iuricode/readme-template/blob/main/README-repository/iuricode.md">iuricode</a>
 
 <a href="https://github.com/arthur-hc/Project-Cookmaster/edit/main/README.md">arthur-hc</a>
+
+<a href="https://github.com/tryber/sd-012-cookmaster">sd-012-cookmaster</a>
