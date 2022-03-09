@@ -8,7 +8,6 @@ const messages = {
   409: 'Email already registered',
 };
 
-
 const checkFields = (name, email, password) => (name && email && password);
 
 const emailIsValid = (email, emailRegex) => emailRegex.test(email);
