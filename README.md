@@ -5,6 +5,8 @@
   <a href = "mailto:eder.mota@outlook.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a> 
 </div>
 
+## 🍰 Resumo
+
 Esse projeto foi proposto pela Trybe e tem como objetivo o desenvolvimento de um App utilizando a arquitetura MSC (Models, Service e Controllers). Para isso é necessário que cumpra os seguintes requisitos:
 - Cadastrar um usuário
 - Criar o login de usuário cadastrado
@@ -43,11 +45,7 @@ Para usar cook-master, siga estas etapas:
 * Rode o programa através do comando
 `npm run dev`
 
-Agora você já pode ver o funcionamento desse projeto!
-
-
-## A seguir instruções e requisitos que foram solicitados para o projeto
-
+## A seguir as instruções que foram seguidas para desenvolvimento do projeto
 
 ### Termos e acordos
 
@@ -893,13 +891,6 @@ Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência 
 Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_name=Turma%2012)
 
 O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
-
-# Entre em contato:
-
-<div> 
-  <a href="https://www.linkedin.com/in/eder-santos-dev/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-  <a href = "mailto:eder.mota@outlook.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a> 
-</div>
 
 ## 🥞 Referências:
 <a href="https://github.com/iuricode/readme-template/blob/main/README-repository/iuricode.md">iuricode</a>
