@@ -7,7 +7,7 @@
 
 ## 🍰 Resumo
 
-Esse projeto foi proposto pela Trybe e tem como objetivo o desenvolvimento de um App utilizando a arquitetura MSC (Models, Service e Controllers). Para isso é necessário que cumpra os seguintes requisitos:
+Esse projeto foi proposto pela Trybe e tem como objetivo o desenvolvimento de um App Backend utilizando a arquitetura MSC (Models, Service e Controllers). Para isso é necessário que cumpra os seguintes requisitos:
 - Cadastrar um usuário
 - Criar o login de usuário cadastrado
 - Listar as receitas
